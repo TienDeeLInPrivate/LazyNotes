@@ -1,0 +1,17 @@
+<ion-content [fullscreen]="true">
+  <ion-textarea
+    id="notes-input"
+    aria-label="Custom textarea"
+    placeholder="What are you thinking about?"
+    [autoGrow]="true"
+    class="custom"
+    [(ngModel)]="notesObject.notesString"
+    (ngModelChange)="storeLocalStoreNotes()"
+  ></ion-textarea>
+
+  <ion-fab id="organize-notes" vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="sendNotesToAI()">
+      <ion-icon name="sparkles-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

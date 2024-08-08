@@ -1,0 +1,22 @@
+ion-textarea.custom {
+  --background: #373737;
+  --color: #fff;
+  --padding-end: 20px; //Padding: prevents text from starting at the edge of the screen
+  --padding-start: 20px; 
+  --padding-top: 25px; 
+  --placeholder-color: #ddd;
+  --placeholder-opacity: 0.8;
+  width: 100%; 
+  height: 100%; 
+  text-align: left;
+  --highlight-color-focused: none; //No colored line highlight when clicking into textarea
+  --highlight-color-valid: none; 
+  caret-color: #428cff; //Sets cursor color
+}
+
+ion-content {
+  --background: #373737;
+  --color: #fff;
+  width: 100%; 
+  height: 100%; 
+}

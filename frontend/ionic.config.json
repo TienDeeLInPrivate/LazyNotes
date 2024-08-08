@@ -1,0 +1,7 @@
+{
+  "name": "LazyNotes",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
